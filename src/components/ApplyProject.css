@@ -1,0 +1,102 @@
+.apply-project {
+  background-color: #f7f6f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.apply-project .header {
+  display: flex;
+  align-items: center;  /* Vertically center the items */
+  justify-content: center; /* Center the heading horizontally */
+  width: 100%;
+  padding: 10px;
+  background-color: #20913c; /* Light background for the header */
+  position: relative; /* Needed for positioning the back button */
+}
+
+.apply-project .back-button {
+  font-size: 24px;
+  position: absolute; /* Absolute positioning to keep it on the left */
+  left: 10px; /* Position the back button on the left */
+  top: 0px;
+  color: white; /* White color for the back button */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-project h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white; /* White text for "Apply For Role" */
+  margin: 0;
+}
+
+.apply-project .form-container {
+  width: 100%;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.apply-project form {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-project label {
+  font-size: 14px;
+  color: #555;
+  margin-top: 15px;
+}
+
+.apply-project input, .apply-project select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.apply-project input::placeholder, .apply-project select::placeholder {
+  color: #888;
+}
+
+.apply-project .file-upload {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px dashed #ddd;
+  border-radius: 8px;
+  color: #888;
+  font-size: 14px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.apply-project .apply-button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.apply-project .apply-button:hover {
+  background-color: #45a049;
+}
+
+.apply-project .form-container {
+  padding-bottom: 60px; /* Ensure space for the button */
+}

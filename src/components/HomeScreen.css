@@ -1,0 +1,141 @@
+.home-screen {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer; /* Pointer to indicate clickable profile icon */
+}
+
+.greeting p {
+  margin: 0;
+  color: #888;
+}
+
+.greeting h2 {
+  margin: 0;
+  color: #333;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.filter-button {
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.event-promotion {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.event-details {
+  flex: 1;
+}
+
+.event-details p {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin: 0;
+}
+
+.event-details h4 {
+  margin: 5px 0;
+}
+
+.join-event {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-image {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.actively-hiring, .new-internship {
+  margin-bottom: 20px;
+}
+
+.actively-hiring h4, .new-internship h4 {
+  display: inline-block;
+}
+
+.see-all {
+  float: right;
+  font-size: 12px;
+  color: #12c276;
+  background: none;
+  border: none;
+  cursor: pointer; /* Pointer for clickable See All */
+}
+
+.job-cards {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.job-card {
+  min-width: 300px; /* Adjust based on design */
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer; 
+  position: relative;
+
+}
+
+.apply-button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #45a049;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

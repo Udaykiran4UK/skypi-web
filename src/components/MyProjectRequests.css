@@ -1,0 +1,144 @@
+.my-project-requests {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.email-notice {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.application-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.applicant-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.application-details p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.link {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.applied-date {
+    font-style: italic;
+    color: #555;
+}
+
+/* Style for the Submit button */
+.submit-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Dialog overlay background */
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Dialog box */
+  .dialog-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Dialog buttons */
+  .dialog-button {
+    padding: 8px 16px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* Accept button style */
+  .accept-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+  }
+  
+  .accept-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Reject button style */
+  .reject-button {
+    background-color: #f44336; /* Red background */
+    color: white;
+  }
+  
+  .reject-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  

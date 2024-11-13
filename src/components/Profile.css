@@ -1,0 +1,94 @@
+/* src/components/Profile.css */
+
+.profile-container {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the profile container takes up full screen height */
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.profile-options {
+  flex-grow: 1; /* Ensures that the profile options take up available space */
+}
+
+.profile-options button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Logout Confirmation Dialog */
+
+.logout-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logout-dialog-content {
+  background: white;
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.logout-dialog-content p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.logout-dialog-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout-dialog-yes,
+.logout-dialog-no {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-dialog-yes {
+  background-color: green;
+  color: white;
+}
+
+.logout-dialog-no {
+  background-color: gray;
+  color: white;
+}

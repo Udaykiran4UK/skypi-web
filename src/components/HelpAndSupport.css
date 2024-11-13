@@ -1,0 +1,67 @@
+/* HelpAndSupport.css */
+
+.help-support-container {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #13c460;
+    padding: 10px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+  }
+  
+  .back-button {
+    position: absolute;
+    left: 0;
+    top: -12px;
+    font-size: 40px; /* Keep the font size as it is */
+    font-weight: bold; /* Apply bold text style */
+    color: #ecf7f1;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;;
+    text-align: center;
+  }
+  
+  .content {
+    padding: 16px;
+    line-height: 1.6;
+    color: #333333;
+  }
+  
+  .faq-section,
+  .contact-section {
+    margin-bottom: 20px;
+  }
+  
+  .faq-section h2,
+  .contact-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .faq-item {
+    margin-bottom: 16px;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    margin-left: 20px;
+  }
+  
+  

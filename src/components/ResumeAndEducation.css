@@ -1,0 +1,67 @@
+.resume-education-container {
+    padding: 16px;
+    padding-bottom: 80px; /* Extra bottom padding to ensure scroll space for button */
+  }
+  
+  .resume-education-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-education-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .resume-education-form label {
+    font-weight: bold;
+  }
+  
+  .resume-education-form input,
+  .resume-education-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .time-period {
+    margin-top: 20px;
+  }
+  
+  .time-selectors {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .time-from, .time-to {
+    flex: 1;
+  }
+  
+  /* Fixed position for the Continue button */
+  .continue-button {
+    width: calc(100% - 32px); /* Adjust width to account for container padding */
+    padding: 12px;
+    background-color: #07d25c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 60px; /* Stop above the bottom navigation bar */
+    left: 16px; /* Align with the form padding */
+    right: 16px; /* Align with the form padding */
+    z-index: 1;
+  }
+  
+  .date-picker-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

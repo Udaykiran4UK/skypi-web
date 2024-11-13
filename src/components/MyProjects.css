@@ -1,0 +1,138 @@
+/* src/components/MyProjects.css */
+
+.projects-container {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    position: relative;
+  }
+  
+  .projects-container h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .project-card {
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-header h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .add-button:hover {
+    background-color: #45A049;
+  }
+  
+  .project-info {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .project-detail {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+  }
+  
+  /* Floating Add Button */
+  .floating-add-button {
+    position: fixed;
+    bottom: 80px;
+    right: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    width: 56px;          /* Set equal width and height for a perfect circle */
+    height: 56px;
+    border-radius: 50%;   /* 50% border-radius makes it circular */
+    font-size: 24px;      /* Font size for the icon */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.white-plus {
+    color: white;        /* Ensures the plus icon is white */
+}
+
+  
+  .floating-add-button:hover {
+    background-color: #45A049;
+  }
+  
+  /* Dialog Overlay */
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .dialog-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    width: 80%;
+  }
+  
+  .dialog-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dialog-button.yes {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .dialog-button.no {
+    background-color: #f44336;
+    color: #fff;
+  }
+  

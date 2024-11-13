@@ -1,0 +1,147 @@
+/* src/components/ProjectDetails.css */
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f8fa;
+    overflow: hidden;
+}
+
+.project-details-header {
+    display: flex;
+  align-items: center;  /* Vertically center the items */
+  justify-content: center; /* Center the heading horizontally */
+  width: 100%;
+  padding: 10px;
+  background-color: #20913c; /* Light background for the header */
+  position: relative; 
+}
+.back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #45a049; /* Green color */
+}
+
+
+.favorite-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.project-details-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.scroll-container {
+    overflow-y: auto;
+    padding: 16px;
+    width: 100%;
+    max-height: calc(100vh - 56px); /* Adjust for header */
+    box-sizing: border-box;
+}
+
+.company-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 16px;
+}
+
+.job-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0 4px;
+}
+
+.job-info {
+    color: #45a049;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 0;
+    width: 100%;
+}
+
+.tab {
+    flex: 1;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #6c757d;
+}
+
+.tab.active {
+    color: #ffffff;
+    background-color: #45a049;
+    border-radius: 8px;
+}
+
+.tab-content {
+    width: 100%;
+    text-align: left;
+}
+
+.description-section, .about-company-section {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.description-section h3, .about-company-section h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.description-section ul, .about-company-section p {
+    padding-left: 16px;
+}
+
+.description-section li {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.apply-project .apply-button {
+    width: 100%;
+    background-color: #45a049;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .apply-project .apply-button:hover {
+    background-color: #45a049;
+  }
+  
+  .apply-project .form-container {
+    padding-bottom: 60px; /* Ensure space for the button */
+  }
+  
